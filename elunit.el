@@ -1,19 +1,15 @@
-;;; elunit.el --- Emacs Lisp Unit Testing framework
+;;; elunit.el --- [deprecated] Emacs Lisp Unit Testing framework
 
-;; Copyright (C) 2006 - 2008 Phil Hagelberg
+;; Copyright (C) 2006-2008 Phil Hagelberg
 
 ;; Author: Phil Hagelberg <technomancy@gmail.com>
 ;; URL: http://www.emacswiki.org/cgi-bin/wiki/ElUnit
-;; Version: 1.1
+;; Version: 1.1.1
 ;; Created: 2006-08-17
 ;; Keywords: unit test tdd
 ;; EmacsWiki: ElUnit
 
 ;; This file is NOT part of GNU Emacs.
-
-;; Last-Updated: Fri Nov 16 16:23:06 2007 PST
-;; By: Phil Hagelberg
-;; Update #: 1
 
 ;;; License:
 
@@ -33,6 +29,10 @@
 ;; Boston, MA 02110-1301, USA.
 
 ;;; Commentary:
+
+;; THIS PACKAGE IS DEPRECATED.  For new packages you should use `ert'
+;; instead.  The tests of some existing packages still use `elunit',
+;; which is why it was made available on Melpa.
 
 ;; Inspired by regress.el by Wayne Mesard and Tom Breton, Test::Unit
 ;; by Nathaniel Talbott, and xUnit by Kent Beck
